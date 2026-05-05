@@ -1,0 +1,15 @@
+{
+  "name": "ba-scout-single-player-worker",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "wrangler": "^4.0.0",
+    "@cloudflare/workers-types": "^4.20250400.0"
+  }
+}
