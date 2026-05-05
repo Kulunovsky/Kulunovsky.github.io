@@ -12,7 +12,7 @@ import {
   YAxis
 } from "recharts";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:8787";
+const API_BASE = import.meta.env.VITE_API_BASE || "";
 const BACKGROUND_INTERVAL_MS = 10_000;
 
 type Point = { x: number; elo: number };
